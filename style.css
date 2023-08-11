@@ -1,0 +1,72 @@
+body{
+    background-color: aquamarine;
+}
+
+/* css for th header-area start */
+
+.header-area{
+    width: 100%;
+    padding: 100px 0;
+    font-weight: bold;
+}
+.header-area h1{
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 2px solid red;
+}
+
+/* css for th header-area end */
+
+/* css for th user-area start */
+.user-area{
+    border-left: 10px solid red;
+    background-color: white;
+    padding: 10px 0 3px;
+}
+.user-area:hover img{
+    box-shadow: 2px 2px 20px red;
+    transition: .2s;
+}
+.user-area img{
+    width: 30%;
+    border-radius: 50%;
+}
+/* css for th header-area start */
+
+/* css for th quote-area start */
+.quote-area{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+}
+.quote-area p{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+/* css for th quote-area end */
+
+
+/* rest for responsiveness */
+
+    @media screen and (min-width: 992px) and (max-width: 1920px) {
+        .quote-area{
+            margin-left: -4%;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        body {
+        background-color: lightgreen;
+        }
+        .quote-area{
+            margin-left: -5.5%;
+        }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 479px) {
+        body{
+            background-color: lightsalmon;
+        }
+    }  
