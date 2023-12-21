@@ -30,6 +30,12 @@
         showQuote.innerText = `~~ ${quote} ~~`
     }
 
+    // JavaScript to add functionality to the button
+    document.getElementById('refreshButton').addEventListener('click', function() {
+        // Reload the page
+        location.reload();
+    });
+
     loadQuotes();
     
     loadUser();
