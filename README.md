@@ -9,6 +9,6 @@
 ## Live link : https://tahmid0111.github.io/random_quote_generator-01/
 
 ### Technologies -
-HTML5 + CSS3 + Bootstrap5 + Jquery
+vanilla javascript
 
 ### This project shows my expertise in Vanilla JavaScript
