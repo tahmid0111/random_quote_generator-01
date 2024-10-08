@@ -2,7 +2,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .content{
     background-color: white;
     border-left: 15px solid blue;
@@ -11,7 +10,17 @@ body {
     margin-top: 17%;
     padding: 50px 50px;
 }
-
+.loading-state{
+    background-color: white;
+    border-left: 15px solid blue;
+    font-weight: 700;
+    z-index: 2;
+    margin-top: 17%;
+    padding: 50px 50px;
+    text-align: center;
+    font-size: 40px;
+    display: none;
+}
 .quote{
     font-size: 40px;
 }
