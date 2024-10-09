@@ -1,22 +1,28 @@
 body {
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: bisque;
 }
 .content{
     background-color: white;
     border-left: 15px solid blue;
     font-weight: 700;
     z-index: 2;
-    margin-top: 17%;
+    margin-top: 5%;
     padding: 50px 50px;
+}
+.background h1{
+    text-align: center;
+    padding-top: 10%;
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
 }
 .loading-state{
     background-color: white;
     border-left: 15px solid blue;
     font-weight: 700;
     z-index: 2;
-    margin-top: 17%;
-    padding: 50px 50px;
+    margin-top: 5%;
+    padding: 69px 0;
     text-align: center;
     font-size: 40px;
     display: none;

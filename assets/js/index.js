@@ -4,6 +4,7 @@ const apiBaseURL = "https://dummyjson.com/quotes";
 const quoteElement = document.getElementById("quote");
 const quoteElement2 = document.getElementById("author");
 const loading = document.getElementById("loading");
+const content = document.getElementById("content");
 
 // Get today's quote based on the day of the year
 function getQuoteOfTheDay() {
@@ -11,11 +12,13 @@ function getQuoteOfTheDay() {
 
   // Display the loading element
   loading.style.display = "block";
+  content.style.display = "none";
 
   fetch(`${apiBaseURL}/${quoteId}`)
     .then((response) => response.json())
     .then((data) => {
       displayQuote(data);
+      content.style.display = "block";
       // Hide the loading element
       loading.style.display = "none";
     })

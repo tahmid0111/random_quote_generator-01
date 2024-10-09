@@ -2,7 +2,7 @@ export function getQuoteId() {
   // Get the current day of the year (1 to 365)
   const today = new Date();
   const dayOfWeek = today.getDay();
-  addBackgroundImage(dayOfWeek);
+  // addBackgroundImage(dayOfWeek);
   const start = new Date(today.getFullYear(), 0, 0);
   const diff = today - start;
   const oneDay = 1000 * 60 * 60 * 24;
