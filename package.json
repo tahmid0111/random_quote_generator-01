@@ -1,0 +1,14 @@
+{
+  "name": "random_quote_generator_01",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.1.2"
+  }
+}

@@ -9,7 +9,6 @@ const content = document.getElementById("content");
 // Get today's quote based on the day of the year
 function getQuoteOfTheDay() {
   const quoteId = getQuoteId();
-
   // Display the loading element
   loading.style.display = "block";
   content.style.display = "none";
