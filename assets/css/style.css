@@ -1,36 +1,38 @@
 body {
-    background-color: bisque;
+  background-color: bisque;
 }
-.content{
-    background-color: white;
-    border-left: 15px solid blue;
-    font-weight: 700;
-    z-index: 2;
-    margin-top: 5%;
-    padding: 50px 50px;
+.background h1 {
+  text-align: center;
+  padding-top: 10%;
+  color: brown;
+  font-size: 50px;
+  font-weight: bold;
+  overflow: hidden;
 }
-.background h1{
-    text-align: center;
-    padding-top: 10%;
-    color: brown;
-    font-size: 50px;
-    font-weight: bold;
+.content {
+  background-color: white;
+  border-left: 15px solid blue;
+  font-weight: 700;
+  z-index: 2;
+  margin-top: 5%;
+  padding: 50px 50px;
 }
-.loading-state{
-    background-color: white;
-    border-left: 15px solid blue;
-    font-weight: 700;
-    z-index: 2;
-    margin-top: 5%;
-    padding: 69px 0;
-    text-align: center;
-    font-size: 40px;
-    display: none;
+
+.loading-state {
+  background-color: white;
+  border-left: 15px solid blue;
+  font-weight: 700;
+  z-index: 2;
+  margin-top: 5%;
+  padding: 69px 0;
+  text-align: center;
+  font-size: 40px;
+  display: none;
 }
-.quote{
-    font-size: 40px;
+.quote {
+  font-size: 40px;
 }
-.author{
-    font-size: 25px;
-    color: blue;
+.author {
+  font-size: 25px;
+  color: blue;
 }

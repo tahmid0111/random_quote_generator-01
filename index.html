@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Quotes</title>
+    <title>Daily Motivation</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,14 +14,29 @@
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body>
-    <div class="background">
-      <h1>Daily Motivation</h1>
-      <div id="loading" class="loading-state">Loading...</div>
-      <div id="content" class="content">
-        <div id="quote" class="quote"></div>
-        <div id="author" class="author"></div>
-      </div>
-    </div>
+    <main class="background">
+      <header>
+        <h1 id="main-title" tabindex="0">Daily Motivation</h1>
+      </header>
+
+      <section
+        id="loading"
+        class="loading-state"
+        role="status"
+        aria-live="polite"
+      >
+        Loading...
+      </section>
+      <article id="content" class="content" aria-labelledby="main-title">
+        <blockquote
+          id="quote"
+          class="quote"
+          aria-live="polite"
+          tabindex="0"
+        ></blockquote>
+        <p id="author" class="author" aria-live="polite" tabindex="0"></p>
+      </article>
+    </main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
